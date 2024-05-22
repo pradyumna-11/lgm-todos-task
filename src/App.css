@@ -1,0 +1,116 @@
+body {
+  padding: 0px;
+  margin: 0px;
+}
+
+.todos-bg-container {
+  background-color: hsl(216, 71%, 99%);
+  height: 100%;
+  padding-bottom: 30px;
+}
+
+.todos-heading {
+  text-align: center;
+  font-family: "Roboto";
+  font-size: 46px;
+  font-weight: 500;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.create-task-heading {
+  font-family: "Roboto";
+  font-size: 32px;
+  font-weight: 700;
+}
+
+.create-task-heading-subpart {
+  font-family: "Roboto";
+  font-size: 32px;
+  font-weight: 500;
+}
+
+.todo-items-heading {
+  font-family: "Roboto";
+  font-size: 32px;
+  font-weight: 700;
+}
+
+.todo-items-heading-subpart {
+  font-family: "Roboto";
+  font-size: 32px;
+  font-weight: 500;
+}
+
+.todo-items-container {
+  margin: 0px;
+  padding: 0px;
+}
+
+.todo-user-input {
+  background-color: white;
+  width: 100%;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #e4e7eb;
+  border-radius: 10px;
+  margin-top: 10px;
+  padding: 15px;
+}
+
+.button:hover {
+  background-color: black;
+}
+
+.button {
+  color: white;
+  background-color: #4c63b6;
+  font-family: "Roboto";
+  font-size: 18px;
+  border-width: 0px;
+  border-radius: 4px;
+  margin-top: 20px;
+  margin-bottom: 50px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-right: 20px;
+  padding-left: 20px;
+}
+
+.edit-button {
+  color: white;
+  background-color: #4c63b6;
+  font-size: 17px;
+  font-family: "Roboto";
+  border-width: 0px;
+  border-radius: 4px;
+  padding: 6px;
+  cursor: pointer;
+  outline: none;
+  margin-top: 3px;
+  margin-bottom: 3px;
+  margin-left: auto;
+}
+
+.edit-input-style {
+  background-color: transparent;
+  display: none;
+  width: 82%;
+  font-size: 15px;
+}
+
+.todo-item-style {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.no-tasks-heading {
+  font-size: 35px;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-family: "Roboto";
+}
